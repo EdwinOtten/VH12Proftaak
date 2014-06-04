@@ -14,7 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -24,7 +24,6 @@
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <script type="text/javascript' src='js/demo.js"></script>
     <![endif]-->
   </head>
 
@@ -44,14 +43,8 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top</a></li>
+            <li><a href="index.php">Werknemersoverzicht</a></li>
+            <li><a href="add.php">Werknemer toevoegen</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -59,14 +52,43 @@
 
     <div class="container">
 
+      <div class="page-header">
+        <h1>Werknemersoverzicht</h1>  
+      </div>
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+      <div class="">
+        <p>Hieronder vindt u de werknemers van het St. Matthews Hospital.</p>
+        <textarea id="response"></textarea>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
     </div> <!-- /container -->
@@ -75,8 +97,45 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.soap.js"></script>
+
+
+
+  <script type="text/javascript">
+        $(document).ready(function () {
+
+                var wsUrl = "proxy.php?send_cookies=0&user_agent=Apache-HttpClient/4.1.1 (java 1.5)&mode=native&url=http%3A%2F%2F145.48.6.81%3A9001%2FHartigeHapProftaak-Planning-context-root%2FPersoneelsbManagerPort%3Fwsdl";
+
+                var soapRequest =
+'<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://BusinessLogic/"><soapenv:Header/><soapenv:Body><bus:getComboMedewerker/></soapenv:Body></soapenv:Envelope>';
+
+                $.ajax({
+                    type: "POST",
+                    url: wsUrl,
+                    contentType: "text/xml; charset=UTF-8",
+                    dataType: "xml",
+                    headers: {
+                        SOAPAction: ''
+                    },
+                    data: soapRequest,
+                    cache: false,
+                    success: processSuccess,
+                    error: processError
+                });
+
+        });
+
+        function processSuccess(data, status, req) {
+            if (status == "success")
+                $("#response").text($(req.responseXML).find("HelloResult").text());
+        }
+
+        function processError(data, status, req) {
+            alert(req.responseText + " " + status);
+        }  
+
+    </script>
 
   </body>
 </html>
