@@ -105,19 +105,17 @@
   <script type="text/javascript">
         $(document).ready(function () {
 
-                var wsUrl = "proxy.php?send_cookies=0&user_agent=Apache-HttpClient/4.1.1 (java 1.5)&mode=native&url=http%3A%2F%2F145.48.6.81%3A9001%2FHartigeHapProftaak-Planning-context-root%2FPersoneelsbManagerPort%3Fwsdl";
+                var wsUrl;
+                wsUrl = "proxy.php?send_cookies=0&user_agent=Apache-HttpClient/4.1.1 (java 1.5)&mode=native&url=http%3A%2F%2F145.48.6.81%3A9001%2FHartigeHapProftaak-Planning-context-root%2FPersoneelsbManagerPort%3Fwsdl";
+                wsUrl = "proxy2.php?url=145.48.6.81%3A9001%2FHartigeHapProftaak-Planning-context-root%2FPersoneelsbManagerPort%3Fwsdl";
 
-                var soapRequest =
-'<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://BusinessLogic/"><soapenv:Header/><soapenv:Body><bus:getComboMedewerker/></soapenv:Body></soapenv:Envelope>';
+                var soapRequest = '<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://BusinessLogic/"><soapenv:Header/><soapenv:Body><bus:getComboMedewerker/></soapenv:Body></soapenv:Envelope>';
 
                 $.ajax({
                     type: "POST",
                     url: wsUrl,
-                    contentType: "text/xml; charset=UTF-8",
+                    contentType: "text/xml",
                     dataType: "xml",
-                    headers: {
-                        SOAPAction: ''
-                    },
                     data: soapRequest,
                     cache: false,
                     success: processSuccess,
