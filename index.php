@@ -44,9 +44,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-<<<<<<< HEAD
             <li class="active"><a href="index.php">Home</a></li>
-=======
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -54,7 +52,6 @@
             <li><a href="../navbar/">Default</a></li>
             <li><a href="../navbar-static-top/">Static top</a></li>
             <li class="active"><a href="./">Fixed top</a></li>
->>>>>>> FETCH_HEAD
           </ul>
         </div><!--/.nav-collapse -->
       </div>
