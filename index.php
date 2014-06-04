@@ -12,6 +12,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- responsive tables -->
+    <link href="css/no-more-tables.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
@@ -58,35 +60,22 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="">
         <p>Hieronder vindt u de werknemers van het St. Matthews Hospital.</p>
-        <textarea id="response"></textarea>
-        <table class="table table-striped">
+        <table class="table table-striped no-more-tables" id="employeestable">
           <thead>
             <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
+              <th class="numeric">id</th>
+              <th>Functie</th>
+              <th>Naam</th>
+              <th>Geboren</th>
+              <th>Geslacht</th>
+              <th>Adres</th>
+              <th>Postcode</th>
+              <th>Plaats</th>
+              <th class="numeric">Telefoon</th>
+              <th class="numeric">Contracturen</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -105,18 +94,9 @@
   <script type="text/javascript">
         $(document).ready(function () {
 
-                var wsUrl;
-                wsUrl = "proxy.php?send_cookies=0&user_agent=Apache-HttpClient/4.1.1 (java 1.5)&mode=native&url=http%3A%2F%2F145.48.6.81%3A9001%2FHartigeHapProftaak-Planning-context-root%2FPersoneelsbManagerPort%3Fwsdl";
-                wsUrl = "proxy2.php?url=145.48.6.81%3A9001%2FHartigeHapProftaak-Planning-context-root%2FPersoneelsbManagerPort%3Fwsdl";
-
-                var soapRequest = '<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://BusinessLogic/"><soapenv:Header/><soapenv:Body><bus:getComboMedewerker/></soapenv:Body></soapenv:Envelope>';
-
                 $.ajax({
-                    type: "POST",
-                    url: wsUrl,
-                    contentType: "text/xml",
-                    dataType: "xml",
-                    data: soapRequest,
+                    type: "GET",
+                    url: 'proxy.php?service=getSuperComboMedewerker',
                     cache: false,
                     success: processSuccess,
                     error: processError
@@ -125,6 +105,23 @@
         });
 
         function processSuccess(data, status, req) {
+          $(data).find('werknemer').each(function(){
+            jQuery("#employeestable tbody").append(
+              '<tr>' +
+                '<td data-title="id" class="numeric">'                  + $(this).find('id').text() + '</td>' +
+                '<td data-title="Functie">'                             + $(this).find('jobname').text() + '</td>' +
+                '<td data-title="Naam">'                           + $(this).find('firstname').text() + ' ' + $(this).find('surname').text() + '</td>' +
+                '<td data-title="Geboren">'                           + $(this).find('birthdate').text() + '</td>' +
+                '<td data-title="Geslacht">'                                 + $(this).find('sex').text() + '</td>' +
+                '<td data-title="Adres">'                              + $(this).find('street').text() + ' ' + $(this).find('housenumber').text() + '</td>' +
+                '<td data-title="Postcode">'                          + $(this).find('postalcode').text() + '</td>' +
+                '<td data-title="Stad">'                                + $(this).find('city').text() + '</td>' +
+                '<td data-title="Telefoon" class="numeric">'         + $(this).find('phonenumber').text() + '</td>' +
+                '<td data-title="Contracturen" class="numeric">'       + $(this).find('contracthours').text() + '</td>' +
+              '</tr>'
+            );
+        });
+
             if (status == "success")
                 $("#response").text($(req.responseXML).find("HelloResult").text());
         }

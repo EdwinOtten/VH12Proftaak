@@ -1,0 +1,1435 @@
+LOGGED AT 2014-06-04 21:58:06
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><return>Kaas;23;Erik;Lensher;214782;1970-02-24 00:00:00.0;m;leetsteet;23;4545FG;Hoeven;165533466;3</return><return>Kaas;4;Max;Eisenhard;l0p3n1sk0ud;1970-02-24 00:00:00.0;M;Weigeliastraat;15;4741CR;Hoeven;1646703576;6</return><return>chef;1;DP;Barry;askdfasdj23j4l;j32lk4j3lj43l32j432;;1994-10-10 00:00:00.0;T;Dordt;23;8320BB;Dord city;909001;4</return><return>Kaas;3;Tony;Stark;l0p3n1sk0ud;1970-02-24 00:00:00.0;M;Leetstreet;14;1337AK;Hoeven;165503576;4</return><return>Suck;234;Rick;Smits;asdf;1994-02-03 00:00:00.0;M;Rondd;55;4234la;sdffds;24234233;23</return><return>Assassin;7;Bond;James Bond;secret;1970-12-30 00:00:00.0;M;Albert Embankment;85;SE17TP;London;800789321;10</return><return>Assassin;8;Bond;James Bond;secret;1970-12-30 00:00:00.0;M;Albert Embankment;85;SE17TP;London;800789321;10</return></ns2:getComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 407
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.047
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 238
+    [size_download] => 1037
+    [speed_download] => 22063
+    [speed_upload] => 5063
+    [download_content_length] => -1
+    [upload_content_length] => 238
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 52525
+)
+
+LOGGED AT 2014-06-04 22:02:00
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.032
+    [pretransfer_time] => 0.032
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 52669
+)
+
+LOGGED AT 2014-06-04 22:04:12
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 52754
+)
+
+LOGGED AT 2014-06-04 22:08:20
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 52960
+)
+
+LOGGED AT 2014-06-04 22:08:38
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 52974
+)
+
+LOGGED AT 2014-06-04 22:08:46
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.047
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 60851
+    [speed_upload] => 5553
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.032
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 52983
+)
+
+LOGGED AT 2014-06-04 22:14:13
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53188
+)
+
+LOGGED AT 2014-06-04 22:14:29
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.046
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53204
+)
+
+LOGGED AT 2014-06-04 22:15:10
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53284
+)
+
+LOGGED AT 2014-06-04 22:19:19
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.031
+    [pretransfer_time] => 0.031
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53577
+)
+
+LOGGED AT 2014-06-04 22:19:24
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53581
+)
+
+LOGGED AT 2014-06-04 22:20:09
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.046
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53609
+)
+
+LOGGED AT 2014-06-04 22:20:12
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.031
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53616
+)
+
+LOGGED AT 2014-06-04 22:20:16
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53619
+)
+
+LOGGED AT 2014-06-04 22:20:32
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53633
+)
+
+LOGGED AT 2014-06-04 22:21:11
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53663
+)
+
+LOGGED AT 2014-06-04 22:24:00
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.031
+    [pretransfer_time] => 0.031
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.062
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53770
+)
+
+LOGGED AT 2014-06-04 22:24:05
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53776
+)
+
+LOGGED AT 2014-06-04 22:24:07
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.031
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53778
+)
+
+LOGGED AT 2014-06-04 22:24:10
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.079
+    [namelookup_time] => 0
+    [connect_time] => 0.032
+    [pretransfer_time] => 0.032
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36202
+    [speed_upload] => 3303
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53780
+)
+
+LOGGED AT 2014-06-04 22:24:12
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.031
+    [pretransfer_time] => 0.031
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53783
+)
+
+LOGGED AT 2014-06-04 22:24:14
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53785
+)
+
+LOGGED AT 2014-06-04 22:24:15
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.047
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 60851
+    [speed_upload] => 5553
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.032
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53786
+)
+
+LOGGED AT 2014-06-04 22:24:16
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53788
+)
+
+LOGGED AT 2014-06-04 22:24:17
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53789
+)
+
+LOGGED AT 2014-06-04 22:24:19
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.079
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36202
+    [speed_upload] => 3303
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53790
+)
+
+LOGGED AT 2014-06-04 22:28:00
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.031
+    [pretransfer_time] => 0.031
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.062
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53920
+)
+
+LOGGED AT 2014-06-04 22:28:45
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53949
+)
+
+LOGGED AT 2014-06-04 22:29:47
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.032
+    [pretransfer_time] => 0.032
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 53986
+)
+
+LOGGED AT 2014-06-04 22:32:59
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.079
+    [namelookup_time] => 0
+    [connect_time] => 0.032
+    [pretransfer_time] => 0.032
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36202
+    [speed_upload] => 3303
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54099
+)
+
+LOGGED AT 2014-06-04 22:34:52
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54166
+)
+
+LOGGED AT 2014-06-04 22:36:05
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54301
+)
+
+LOGGED AT 2014-06-04 22:36:07
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.015
+    [pretransfer_time] => 0.015
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54303
+)
+
+LOGGED AT 2014-06-04 22:36:24
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54318
+)
+
+LOGGED AT 2014-06-04 22:36:26
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54320
+)
+
+LOGGED AT 2014-06-04 22:36:41
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54334
+)
+
+LOGGED AT 2014-06-04 22:40:33
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.078
+    [namelookup_time] => 0
+    [connect_time] => 0.031
+    [pretransfer_time] => 0.031
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36666
+    [speed_upload] => 3346
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54474
+)
+
+LOGGED AT 2014-06-04 22:41:44
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.079
+    [namelookup_time] => 0
+    [connect_time] => 0.032
+    [pretransfer_time] => 0.032
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 36202
+    [speed_upload] => 3303
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54525
+)
+
+LOGGED AT 2014-06-04 22:42:09
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.062
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 46129
+    [speed_upload] => 4209
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54549
+)
+
+LOGGED AT 2014-06-04 22:44:04
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.063
+    [namelookup_time] => 0
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 45396
+    [speed_upload] => 4142
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.047
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54624
+)
+
+LOGGED AT 2014-06-04 22:44:16
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getSuperComboMedewerkerResponse xmlns:ns2="http://BusinessLogic/"><werknemer><jobname>Kaas</jobname><id>23</id><firstname>Erik</firstname><surname>Lensher</surname><password>214782</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>m</sex><street>leetsteet</street><housenumber>23</housenumber><postalcode>4545FG</postalcode><city>Hoeven</city><phonenumber>165533466</phonenumber><contracthours>3</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>4</id><firstname>Max</firstname><surname>Eisenhard</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Weigeliastraat</street><housenumber>15</housenumber><postalcode>4741CR</postalcode><city>Hoeven</city><phonenumber>1646703576</phonenumber><contracthours>6</contracthours></werknemer><werknemer><jobname>chef</jobname><id>1</id><firstname>DP</firstname><surname>Barry</surname><password>askdfasdj23j4l;j32lk4j3lj43l32j432;</password><birthdate>1994-10-10 00:00:00.0</birthdate><sex>T</sex><street>Dordt</street><housenumber>23</housenumber><postalcode>8320BB</postalcode><city>Dord city</city><phonenumber>909001</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Kaas</jobname><id>3</id><firstname>Tony</firstname><surname>Stark</surname><password>l0p3n1sk0ud</password><birthdate>1970-02-24 00:00:00.0</birthdate><sex>M</sex><street>Leetstreet</street><housenumber>14</housenumber><postalcode>1337AK</postalcode><city>Hoeven</city><phonenumber>165503576</phonenumber><contracthours>4</contracthours></werknemer><werknemer><jobname>Suck</jobname><id>234</id><firstname>Rick</firstname><surname>Smits</surname><password>asdf</password><birthdate>1994-02-03 00:00:00.0</birthdate><sex>M</sex><street>Rondd</street><housenumber>55</housenumber><postalcode>4234la</postalcode><city>sdffds</city><phonenumber>24234233</phonenumber><contracthours>23</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>7</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer><werknemer><jobname>Assassin</jobname><id>8</id><firstname>Bond</firstname><surname>James Bond</surname><password>secret</password><birthdate>1970-12-30 00:00:00.0</birthdate><sex>M</sex><street>Albert Embankment</street><housenumber>85</housenumber><postalcode>SE17TP</postalcode><city>London</city><phonenumber>800789321</phonenumber><contracthours>10</contracthours></werknemer></ns2:getSuperComboMedewerkerResponse></S:Body></S:Envelope>
+Array
+(
+    [url] => http://145.48.6.81:9001/HartigeHapProftaak-Planning-context-root/PersoneelsbManagerPort?wsdl
+    [content_type] => text/xml;charset="utf-8"
+    [http_code] => 200
+    [header_size] => 241
+    [request_size] => 430
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.047
+    [namelookup_time] => 0
+    [connect_time] => 0.016
+    [pretransfer_time] => 0.016
+    [size_upload] => 261
+    [size_download] => 2860
+    [speed_download] => 60851
+    [speed_upload] => 5553
+    [download_content_length] => -1
+    [upload_content_length] => 261
+    [starttransfer_time] => 0.031
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 145.48.6.81
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 9001
+    [local_ip] => 192.168.192.116
+    [local_port] => 54635
+)
+
