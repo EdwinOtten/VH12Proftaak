@@ -59,28 +59,21 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Werknemersoverzicht</h1>  
+        <h1>Werknemer toevoegen</h1>  
       </div>
       <div class="">
-        <p>Hieronder vindt u de werknemers van het St. Matthews Hospital.</p>
-        <table class="table table-striped no-more-tables" id="employeestable">
-          <thead>
-            <tr>
-              <th class="numeric">id</th>
-              <th>Functie</th>
-              <th>Naam</th>
-              <th>Geboren</th>
-              <th>Geslacht</th>
-              <th>Adres</th>
-              <th>Postcode</th>
-              <th>Plaats</th>
-              <th class="numeric">Telefoon</th>
-              <th class="numeric">Contracturen</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-        </table>
+        <p>Hieronder kunt u een nieuwe werknemer toevoegen aan het St. Matthews Hospital.</p>
+        <form role="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-default">Voeg toe</button>
+        </form>
       </div>
 
     </div> <!-- /container -->
