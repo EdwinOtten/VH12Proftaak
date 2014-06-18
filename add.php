@@ -15,6 +15,8 @@
     <!-- responsive tables -->
     <link href="css/no-more-tables.css" rel="stylesheet">
 
+    <link href="css/datepicker.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
@@ -63,7 +65,7 @@
       </div>
       <div class="">
         <p>Hieronder kunt u een nieuwe werknemer toevoegen aan het St. Matthews Hospital.</p>
-        <form role="form">
+        <form role="form" id="addWerknemer">
 
           <div class="col-md-4">
             <div class="form-group" id="ID-form-group">
@@ -95,12 +97,16 @@
           <div class="col-md-4">
             <div class="form-group">
               <label for="Geboortedatum">Geboortedatum</label>
-              <input type="text" name="Geboortedatum" class="form-control">
+              <input placeholder="jjjj-mm-dd" type="text" name="Geboortedatum" class="form-control datepicker" data-date-format="yyyy-mm-dd">
+              <span class="glyphicon glyphicon-calendar form-control-feedback" style="position: absolute; top: 35px; right: 24px;"></span>
             </div>
 
             <div class="form-group">
               <label for="Geslacht">Geslacht</label>
-              <input type="text" name="Geslacht" class="form-control">
+              <select type="text" name="Geslacht" class="form-control">
+                <option value="M">man</option>
+                <option value="V">vrouw</option>
+              </select>
             </div>
 
             <div class="form-group">
@@ -127,17 +133,17 @@
 
             <div class="form-group">
               <label for="Telefoon">Telefoon</label>
-              <input type="text" name="Telefoon" class="form-control">
+              <input type="tel" name="Telefoon" class="form-control">
             </div>
 
             <div class="form-group">
               <label for="Contacturen">Contacturen</label>
-              <input type="text" name="Contacturen" class="form-control">
+              <input type="number" name="Contacturen" class="form-control">
             </div>
 
             <div class="form-group">
               <label>&nbsp;</label><br />
-              <button type="submit" class="btn btn-default">Voeg toe</button>
+              <button type="submit" class="btn btn-default" id="submit" data-loading-text="Toevoegen...">Voeg toe</button>
             </div>
             
           </div>
@@ -153,44 +159,57 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/bootstrap-datepicker.js"></script>
 
 
   <script type="text/javascript">
         $(document).ready(function () {
 
+          $('.datepicker').datepicker();
 
-                $.ajax({
-                    type: "GET",
-                    url: 'proxy.php?service=getSuperComboMedewerker',
-                    cache: false,
-                    success: processSuccess,
-                    error: processError
-                });
+          $( "#addWerknemer" ).submit(function( event ) {
+            $( "#submit" ).button('loading');
+            $.post( "proxy.php?service=addWerknemer", $( "#addWerknemer" ).serialize())
+              .done(function( data ) {
+                console.log(data);
+                // do nothing
+            });
+            $( "#submit" ).button('reset');
+            event.preventDefault();
+          });
+
+          
+
+          $( "#ID-form-control" ).keyup(function() {
+            var input = $(this).val();
+            if (input.length > 0) {
+              $.post( "proxy.php?service=employeeExists", { ID: input })
+                .done(function( data ) {
+                  validateID(data);
+              });
+            } else {
+              $('#ID-form-group').removeClass('has-success');
+              $('#ID-form-group').addClass('has-error');
+              $('#ID-form-control-feedback').remove();
+              $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 35px; right: 24px;"></span>');
+            }
+          }); 
 
         });
 
-        function processSuccess(data, status, req) {
-          if (status == "success") {
-            $(data).find('employeeExistsResponse').each(function(){
-              if ($(this).find('return').text() == "true" ) {
-                $('#ID-form-group').removeClass('has-success');
-                $('#ID-form-group').addClass('has-error');
-                $('ID-form-control-feedback').remove();
-                $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 34px; right: 24px;"></span>');
-              } else {
-                $('#ID-form-group').removeClass('has-error');
-                $('#ID-form-group').addClass('has-success');
-                $('ID-form-control-feedback').remove();
-                $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-ok form-control-feedback" style="position: absolute; top: 34px; right: 24px;"></span>');
-              }
-            });
+        function validateID(data) {
+          if ($(data).find('return').text() == "true" ) {
+            $('#ID-form-group').removeClass('has-success');
+            $('#ID-form-group').addClass('has-error');
+            $('#ID-form-control-feedback').remove();
+            $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 35px; right: 24px;"></span>');
+          } else {
+            $('#ID-form-group').removeClass('has-error');
+            $('#ID-form-group').addClass('has-success');
+            $('#ID-form-control-feedback').remove();
+            $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-ok form-control-feedback" style="position: absolute; top: 35px; right: 24px;"></span>');
           }
         }
-
-        function processError(data, status, req) {
-            alert(req.responseText + " " + status);
-        }  
 
     </script>
 
