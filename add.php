@@ -64,15 +64,84 @@
       <div class="">
         <p>Hieronder kunt u een nieuwe werknemer toevoegen aan het St. Matthews Hospital.</p>
         <form role="form">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+
+          <div class="col-md-4">
+            <div class="form-group" id="ID-form-group">
+              <label for="ID">ID</label>
+              <input type="text" name="ID" class="form-control" id="ID-form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Functie">Functie</label>
+              <input type="text" name="Functie" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Voornaam">Voornaam</label>
+              <input type="text" name="Voornaam" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Achternaam">Achternaam</label>
+              <input type="text" name="Achternaam" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Wachtwoord">Wachtwoord</label>
+              <input type="password" name="Wachtwoord" class="form-control">
+            </div>
           </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="Geboortedatum">Geboortedatum</label>
+              <input type="text" name="Geboortedatum" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Geslacht">Geslacht</label>
+              <input type="text" name="Geslacht" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Straat">Straat</label>
+              <input type="text" name="Straat" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Huisnummer">Huisnummer</label>
+              <input type="text" name="Huisnummer" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Postcode">Postcode</label>
+              <input type="text" name="Postcode" class="form-control">
+            </div>
           </div>
-          <button type="submit" class="btn btn-default">Voeg toe</button>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="Stad">Stad</label>
+              <input type="text" name="Stad" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Telefoon">Telefoon</label>
+              <input type="text" name="Telefoon" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Contacturen">Contacturen</label>
+              <input type="text" name="Contacturen" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label>&nbsp;</label><br />
+              <button type="submit" class="btn btn-default">Voeg toe</button>
+            </div>
+            
+          </div>
+
         </form>
       </div>
 
@@ -90,6 +159,7 @@
   <script type="text/javascript">
         $(document).ready(function () {
 
+
                 $.ajax({
                     type: "GET",
                     url: 'proxy.php?service=getSuperComboMedewerker',
@@ -101,25 +171,21 @@
         });
 
         function processSuccess(data, status, req) {
-          $(data).find('werknemer').each(function(){
-            jQuery("#employeestable tbody").append(
-              '<tr>' +
-                '<td data-title="id" class="numeric">'                  + $(this).find('id').text() + '</td>' +
-                '<td data-title="Functie">'                             + $(this).find('jobname').text() + '</td>' +
-                '<td data-title="Naam">'                           + $(this).find('firstname').text() + ' ' + $(this).find('surname').text() + '</td>' +
-                '<td data-title="Geboren">'                           + $(this).find('birthdate').text() + '</td>' +
-                '<td data-title="Geslacht">'                                 + $(this).find('sex').text() + '</td>' +
-                '<td data-title="Adres">'                              + $(this).find('street').text() + ' ' + $(this).find('housenumber').text() + '</td>' +
-                '<td data-title="Postcode">'                          + $(this).find('postalcode').text() + '</td>' +
-                '<td data-title="Stad">'                                + $(this).find('city').text() + '</td>' +
-                '<td data-title="Telefoon" class="numeric">'         + $(this).find('phonenumber').text() + '</td>' +
-                '<td data-title="Contracturen" class="numeric">'       + $(this).find('contracthours').text() + '</td>' +
-              '</tr>'
-            );
-        });
-
-            if (status == "success")
-                $("#response").text($(req.responseXML).find("HelloResult").text());
+          if (status == "success") {
+            $(data).find('employeeExistsResponse').each(function(){
+              if ($(this).find('return').text() == "true" ) {
+                $('#ID-form-group').removeClass('has-success');
+                $('#ID-form-group').addClass('has-error');
+                $('ID-form-control-feedback').remove();
+                $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 34px; right: 24px;"></span>');
+              } else {
+                $('#ID-form-group').removeClass('has-error');
+                $('#ID-form-group').addClass('has-success');
+                $('ID-form-control-feedback').remove();
+                $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-ok form-control-feedback" style="position: absolute; top: 34px; right: 24px;"></span>');
+              }
+            });
+          }
         }
 
         function processError(data, status, req) {
