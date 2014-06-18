@@ -56,7 +56,7 @@
             <li><a href="index.php">Werknemersoverzicht</a></li>
             <li><a href="add.php">Werknemer toevoegen</a></li>
           </ul>
-          <div style="height: 26px; margin-top: 12px;float: right;z-index: 99;width: 44px;float: right;"><div style="background-color: rgb(230, 0, 0);height: 33.333%;width: 100%;"></div><div style="background-color: white;width: 100%;height: 33.333%;"></div><div style="background-color: rgb(69, 69, 253);width: 100%;  height: 33.333%;"></div></div>
+          <div class="hidden-xs" style="height: 26px; margin-top: 12px;float: right;z-index: 99;width: 44px;float: right;"><div style="background-color: rgb(230, 0, 0);height: 33.333%;width: 100%;"></div><div style="background-color: white;width: 100%;height: 33.333%;"></div><div style="background-color: rgb(69, 69, 253);width: 100%;  height: 33.333%;"></div></div>
         </div><!--/.nav-collapse -->
       </div>
     </div>
