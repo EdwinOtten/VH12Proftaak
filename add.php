@@ -47,13 +47,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">VH12 Proftaak</a>
+          <a class="navbar-brand" rel="home" href="#" title="VH12 Proftaak" style="padding-top: 6px;">
+              <img style="max-width:100px; margin-top: -6px; max-height: 50px;" src="logo.png"> VH12 Proftaak
+          </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Werknemersoverzicht</a></li>
             <li><a href="add.php">Werknemer toevoegen</a></li>
           </ul>
+          <div style="height: 26px; margin-top: 12px;float: right;z-index: 99;width: 44px;float: right;"><div style="background-color: rgb(230, 0, 0);height: 33.333%;width: 100%;"></div><div style="background-color: white;width: 100%;height: 33.333%;"></div><div style="background-color: rgb(69, 69, 253);width: 100%;  height: 33.333%;"></div></div>
         </div><!--/.nav-collapse -->
       </div>
     </div>
