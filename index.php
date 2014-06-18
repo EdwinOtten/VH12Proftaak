@@ -64,7 +64,7 @@
       <div class="page-header">
         <h1>Werknemersoverzicht</h1>  
       </div>
-      <div class="">
+      <div class="col-xs-12" style="overflow: hidden;">
         <p>Hieronder vindt u de werknemers van het St. Matthews Hospital.</p>
         <table class="table table-striped no-more-tables" id="employeestable">
           <thead>
