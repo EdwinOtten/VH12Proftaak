@@ -70,7 +70,7 @@
           <div class="col-md-4">
             <div class="form-group" id="ID-form-group">
               <label for="ID">ID</label>
-              <input type="text" name="ID" class="form-control" id="ID-form-control">
+              <input type="number" name="ID" class="form-control" id="ID-form-control">
             </div>
 
             <div class="form-group">
@@ -179,8 +179,7 @@
           });
 
           
-
-          $( "#ID-form-control" ).keyup(function() {
+          $( "#ID-form-control" ).bind('keyup mouseup', function () {
             var input = $(this).val();
             if (input.length > 0) {
               $.post( "proxy.php?service=employeeExists", { ID: input })
@@ -191,7 +190,7 @@
               $('#ID-form-group').removeClass('has-success');
               $('#ID-form-group').addClass('has-error');
               $('#ID-form-control-feedback').remove();
-              $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 35px; right: 24px;"></span>');
+              $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 35px; right: 40px;"></span>');
             }
           }); 
 
@@ -202,12 +201,12 @@
             $('#ID-form-group').removeClass('has-success');
             $('#ID-form-group').addClass('has-error');
             $('#ID-form-control-feedback').remove();
-            $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 35px; right: 24px;"></span>');
+            $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-remove form-control-feedback" style="position: absolute; top: 35px; right: 40px;"></span>');
           } else {
             $('#ID-form-group').removeClass('has-error');
             $('#ID-form-group').addClass('has-success');
             $('#ID-form-control-feedback').remove();
-            $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-ok form-control-feedback" style="position: absolute; top: 35px; right: 24px;"></span>');
+            $('#ID-form-group').append('<span id="ID-form-control-feedback" class="glyphicon glyphicon-ok form-control-feedback" style="position: absolute; top: 35px; right: 40px;"></span>');
           }
         }
 
